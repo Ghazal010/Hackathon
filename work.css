@@ -1,0 +1,120 @@
+body {
+    background-image: url("sky\ \(1\).jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #a5deef;
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+    
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #070b47;
+    padding: 10px;
+    font-size: 1.2em;
+}
+nav a:hover {
+    color: steelblue;
+}
+
+.work-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #070b47;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlighted-channel-title, .facebook-page-title, .featured-blogs-title {
+    font-size: 1.8em;
+    margin: 20px 0;
+    text-align: center;
+    color: #070b47;
+    font-weight: 900;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.channel-name a {
+    font-size: 1.5em;
+    color: #071930;
+    text-decoration: none;
+    font-family: 'Calistoga', cursive;;
+}
+
+.channel-name a:hover {
+    text-decoration: underline;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 10px 0;
+}
+
+.facebook-page-text a {
+    font-size: 1.5em;
+    color: #071930;
+    text-decoration: none;
+    font-family: 'Calistoga', cursive;;
+}
+
+.facebook-page-text a:hover {
+    text-decoration: underline;
+}
+
+.blog-list {
+    list-style: none;
+    margin: 1%;
+    font-size: 1.5em;
+    color: #071930;
+    text-decoration: none;
+    font-family: 'Calistoga', cursive;
+    text-decoration: none;
+}
+
+.blog-list li a{
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #071930;
+    text-decoration: none;
+    font-family: 'Calistoga', cursive;
+    text-decoration: none;
+}
+
+.blog-list li a:hover{
+    text-decoration: underline;
+}
+
+.blog-list iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    border: none;
+}
